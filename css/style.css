@@ -9,7 +9,7 @@ header{background-image: url(../images/R.jpg);
         background-size: cover;}
 
 img{text-align: left;
-width: 150px;
+width: 180px;
 border-radius: 30%;
 border: 3px solid wheat ;}
 
@@ -18,9 +18,10 @@ margin: 0;
 padding: 0;
 overflow: hidden;}
 
-nav li{float: left;}
+nav li{float: left;
+}
 
-nav li a{display: flex;
+nav li a{display: block;
 padding:8px;
 background-color:gray;}
 
