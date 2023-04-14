@@ -20,20 +20,24 @@ overflow: hidden;}
 
 nav li{float: left;}
 
-nav li a{display: block;
+nav li a{display: flex;
 padding:8px;
 background-color:gray;}
 
 section{padding: 15px;}
 
-.flex-container{display: flex;
-flex-direction: row;
-justify-content: flex-start;}
+
+
+
+#contact{display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
 
 
 footer{background-color: black;
     color: white;
-padding: 20px;}
+padding:20px;}
 
 /* On screens that are 400px or less*/
 
